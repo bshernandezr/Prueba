@@ -9,8 +9,7 @@ End Code
 <form action="@Url.Action("Index", "Home", New With {.filtro = a})" method="post">     
     <div class="form-group">
         <label>Filtrar por cargo</label> <br /> 
-        @Html.TextBox(a)
-        @*<input type="text" name="cargo" class="form-control" />*@ 
+        @Html.TextBox(a)        
         <input class="btn btn-success" type="submit" value="Filtrar" />
     </div>
         
